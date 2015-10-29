@@ -23,8 +23,8 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
 
         mReactInstanceManager = ReactInstanceManager.builder()
                 .setApplication(getApplication())
-                .setBundleAssetName("index.android.bundle")
-                .setJSMainModuleName("index.android")
+                .setBundleAssetName("SpacecubedApp.android.bundle")
+                .setJSMainModuleName("SpacecubedApp.android")
                 .addPackage(new MainReactPackage())
                 .setUseDeveloperSupport(BuildConfig.DEBUG)
                 .setInitialLifecycleState(LifecycleState.RESUMED)
