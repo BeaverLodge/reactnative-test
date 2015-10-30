@@ -8,12 +8,14 @@ $ nvm install 4.2.1
 $ npm install
 ```
 
+Just work through the [getting started section](https://facebook.github.io/react-native/docs/getting-started.html#content) including the [Android setup](https://facebook.github.io/react-native/docs/android-setup.html).
+
 ## Development
 
 Kick off the react native server
 
 ```sh
-$ SpacecubedApp/node_modules/react-native/packager/launchPackager.command
+$ npm start
 ```
 
 ### For ios
